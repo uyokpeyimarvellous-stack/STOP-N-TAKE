@@ -1,0 +1,531 @@
+/* Menu Price Styling */
+.menu-price {
+    font-size: 1rem;
+    color: #232A28;
+    font-weight: 600;
+    margin: 6px 0 10px 0;
+    text-align: center;
+}
+/* Menu Order Button */
+.menu-order-btn {
+    margin-top: 10px;
+    width: 90px;
+    padding: 6px 0;
+    background: linear-gradient(90deg, #7B5A3A, #D7DBCD);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(123,90,58,0.15);
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-order-btn:hover {
+    background: linear-gradient(90deg, #D7DBCD, #7B5A3A);
+    color: #FFD700;
+}
+/* Menu Page Styles */
+.menu-bg {
+    padding-bottom: 40px;
+}
+.menu-title {
+    margin-top: 40px;
+    text-align: center;
+    color: #7B5A3A;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+.menu-desc {
+    text-align: center;
+    color: #232A28;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+.menu-list {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.menu-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 20px 0;
+    overflow-x: auto;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.menu-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(123,90,58,0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 10px;
+    min-height: 220px;
+    transition: box-shadow 0.3s;
+}
+.menu-card:hover {
+    box-shadow: 0 4px 16px rgba(123,90,58,0.18);
+}
+.menu-card .food-img {
+    width: 70px;
+    height: 70px;
+    margin-top: auto;
+    width: 100%;
+    padding: 10px 0;
+    background: linear-gradient(90deg, #7B5A3A, #D7DBCD);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(123,90,58,0.15);
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s;
+    display: block;
+    margin-bottom: 10px;
+}
+.confirmation-title {
+    color: #7B5A3A;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+.confirmation-desc {
+    font-size: 1.2rem;
+    color: #232A28;
+    margin-bottom: 25px;
+}
+.confirmation-btn {
+    background-color: #7B5A3A;
+    color: #fff;
+    width: auto;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(123,90,58,0.15);
+    transition: background 0.3s;
+}
+.confirmation-btn:hover {
+    background-color: #D7DBCD;
+    color: #7B5A3A;
+}
+/* Food Images in Menu */
+.food-img {
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 12px;
+    vertical-align: middle;
+    box-shadow: 0 2px 6px rgba(123,90,58,0.12);
+}
+.homepage-btn {
+    width: 50px;
+    height: 20px;
+    padding: 6px 0;
+    background: linear-gradient(90deg, #7B5A3A, #D7DBCD);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(123,90,58,0.15);
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s;
+    display: block;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+/* Homepage Styles */
+.homepage-bg {
+    background: linear-gradient(135deg, #F5F6F3 60%, #D7DBCD 100%);
+    height: 80vh;
+    width: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage-logo {
+    margin-bottom: 30px;
+}
+
+.homepage-title {
+    color: #7B5A3A;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.homepage-desc {
+    font-size: 1.2rem;
+    color: #232A28;
+    margin-bottom: 30px;
+}
+
+.homepage-btn {
+    width: auto;
+    padding: 14px 32px;
+    background: linear-gradient(90deg, #7B5A3A, #D7DBCD);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(123,90,58,0.15);
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s;
+    display: inline-block;
+}
+
+.homepage-btn:hover {
+    background: linear-gradient(90deg, #D7DBCD, #7B5A3A);
+    color: #FFD700;
+}
+/* General Reset */
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+body {
+    height: 100vh;
+}
+
+
+/* Main Container */
+.main-container {
+    background-color: aliceblue;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: oklch(60.483% 0.21664 257.23);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #FFD700;
+}
+
+/* Header Section */
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #7B5A3A;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+    background-color: #ffffff;
+    padding: 40px 32px;
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+    border: 5px solid #7B5A3A;
+}
+
+/* Form Styling */
+.form {
+    width: 100%;
+    text-align: center;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    color: darkblue;
+}
+
+.form p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.form input {
+    width: 100%;
+    padding: 14px 17px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.form input:focus {
+    border-color: darkblue;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 139, 0.5);
+}
+
+/* Button Styling */
+
+.btn {
+    width: 100%;
+    padding: 16px;
+    background: linear-gradient(90deg, #7B5A3A, #D7DBCD);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(123,90,58,0.15);
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #D7DBCD, #7B5A3A);
+    color: #fff;
+}
+
+/* Register Link */
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.register-link a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation Menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #7B5A3A;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #FFD700;
+}
+
+/* Form Container */
+.form-container {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styling */
+.form {
+    width: 100%;
+    text-align: center;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    color: darkblue;
+}
+
+.form p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.form input {
+    width: 100%;
+    padding: 14px 17px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.form input:focus {
+    border-color: darkblue;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 139, 0.5);
+}
+
+/* Button Styling */
+.btn {
+    width: 100%;
+    padding: 14px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+/* Details Container */
+.details-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.details-container h1 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+.details-container h2 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.details-container p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.details-container i {
+    color: darkblue;
+    margin-right: 5px;
+}
+/* Business Container */
+.business-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+      background: linear-gradient(135deg, #F5F6F3 60%, #D7DBCD 100%);
+    
+    
+}
+
+.business-container h1 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+.business-container h2 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.business-container p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.business-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.business-container ul li {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.business-container ul li i {
+    color: darkblue;
+    margin-right: 10px;
+}
